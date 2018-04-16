@@ -21,16 +21,15 @@ class App extends Component{
   }
 
   componentWillMount(){
-    //aqui talvez iria la data 
+    //aqui talvez iria la data
 
-<<<<<<< HEAD
 class App extends React.Component {
    constructor(props){
      super( );
-     this.state= {data : event.target.dataset }
+     //this.state= {data : event.target.dataset }
 
-     handleClick(event) {
-      this.setState.bind(this.event.state)
+     //handleClick(event) {
+    //  this.setState.bind(this.event.state)
  }
 
 }  //console.log(event)
@@ -38,13 +37,10 @@ class App extends React.Component {
       // dataName:dataname.target.innerText,
      //}
     // this.setState({dataset:value.concat(this.state.dataname) })
-     console.log(event.target.dataset.name);
-     console.log(event.target.dataset.precio);
+     //console.log(event.target.dataset.name);
+     //console.log(event.target.dataset.precio);
 }
-
-=======
-  }
->>>>>>> upstream/abigail
+  //}
 
   render () {
     return (
@@ -57,7 +53,6 @@ class App extends React.Component {
               Inicio
               </Link>
             </div>
-<<<<<<< HEAD
           </div>
           <div className="App-container">
           <div className="row">
@@ -220,7 +215,6 @@ class App extends React.Component {
           </div>
         </div>
         </div>
-=======
             <div className="col-md-5 ">
               <Link className="App-estilo" to="/Desayuno">
                 Desayuno
@@ -233,7 +227,6 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-      
 
         <Switch>
           <Route path="/Inicio" exact component={Inicio}></Route>
@@ -241,7 +234,6 @@ class App extends React.Component {
           <Route path="/Comida" exact component={Comida}></Route>
 
         </Switch>
->>>>>>> upstream/abigail
       </section>
    );
   }
