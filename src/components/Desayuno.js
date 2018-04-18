@@ -6,8 +6,8 @@ class Desayuno extends Component {
     render(){
         return (
 
-          <div>tabla de desatuno y pedido</div>
-
+          <div><Menu order={this.state.order} products={order.products.id}/></div>
+         
      )
    }
  }
